@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_moon/pages/home_page.dart';
+import 'package:go_moon/pages/profile_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -16,7 +17,7 @@ class MainApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.grey[900],
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: ProfileScreen(),
     );
   }
 }
